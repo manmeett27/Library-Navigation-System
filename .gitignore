@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local database files
+library.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
